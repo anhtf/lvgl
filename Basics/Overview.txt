@@ -1,0 +1,8 @@
+- Light and Versatile Graphics Lib, free and open source graphics -> collection of C and H files that ca be dropped into any project to add UI
+- esay to learn API -> create widgets (button, sliders, chars,etc) and style them with events-animations
+- LVGL will render an image and a callback to show the rendered image on the display => main interface between LVGL and display.
+
+* How LVGL work:
+
+Driver Initialization => Call lv_init() => Create display and input devices => Create the UI => Call lv_timer_handler() in a loop
+
